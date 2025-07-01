@@ -74,7 +74,7 @@ AWS Command Line Interface (CLI) - The AWS Command Line Interface (CLI) is a uni
 
 
 
-# 3. Question 3 Which Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling feature can help with fault tolerance?
+# 3.  # question 3 Which Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling feature can help with fault tolerance?
 
 1. Distributing load to Amazon EC2 instances
 2. Lower cost by adjusting the number of Amazon EC2 instances
@@ -103,7 +103,7 @@ Having the right amount of computing capacity - Amazon EC2 Auto Scaling ensures 
 Reference:
 
 
-# Question 4 Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
+#  # question 4 Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
 
 1. AWS Health Dashboard - Service health
 2. AWS Trusted Advisor
@@ -133,7 +133,7 @@ https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 Domain
 Security and Compliance
 
-  # Question 5 According to the AWS Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)
+  #  # question 5 According to the AWS Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)
 
 1. Use serverless architectures
 2. Anticipate failure
@@ -173,7 +173,7 @@ Reference:
 
 https://wa.aws.amazon.com/index.en.html
 
-# Question 6 A company based in Sydney hosts its application on an Amazon Elastic Compute Cloud (Amazon EC2) instance in ap-southeast-2. They would like to deploy the same Amazon EC2 instances in eu-south-1. Which of the following AWS entities can address this use case?
+#  # question 6 A company based in Sydney hosts its application on an Amazon Elastic Compute Cloud (Amazon EC2) instance in ap-southeast-2. They would like to deploy the same Amazon EC2 instances in eu-south-1. Which of the following AWS entities can address this use case?
 
 1. Elastic Load Balancing (ELB)
 2. Amazon Machine Image (AMI)
@@ -202,7 +202,7 @@ Reference:
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html
 
-# Question 7 A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
+#  # question 7 A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
 
 1. A security group
 2. A VPC endpoint interface
@@ -224,7 +224,7 @@ Incorrect options:
 
 ### A virtual private gateway (VGW) - A virtual private gateway (VGW) device is a physical or software appliance on AWS side of a Site-to-Site VPN connection.
 
-# Question 8 A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
+#  # question 8 A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
 
 1. AWS Trusted Advisor
 2. AWS Systems Manager
@@ -249,7 +249,7 @@ AWS Health Dashboard - Your Account Health - AWS Health Dashboard - Your Account
 
 AWS Trusted Advisor - AWS Trusted Advisor is an online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment. AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It is not used to get operational insights of AWS resources.
 
-# Question 9 Which AWS serverless service allows you to prepare data for analytics?
+#  # question 9 Which AWS serverless service allows you to prepare data for analytics?
 
 1. Amazon Athena
 2. Amazon Redshift
@@ -276,7 +276,7 @@ Reference:
 
 https://aws.amazon.com/glue/
 
-# Question 10 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
+#  # question 10 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
 
 1. Pay per minute
 
@@ -306,7 +306,7 @@ Reference:
 
 https://aws.amazon.com/ec2/pricing/
 
-# Question 11 A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
+#  # question 11 A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
 
 1. Convertible reserved instance (RI)
 
@@ -337,7 +337,7 @@ Scheduled reserved instance (RI) - AWS does not support scheduled reserved insta
 Adaptable reserved instances (RI) - Adaptable reserved instance (RI) is not a valid type of reserved instance (RI). It is a distractor
 
 
-# Question 12 Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
+#  # question 12 Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
 
 1. Amazon Simple Notification Service (Amazon SNS)
 2. AWS Lambda
@@ -367,7 +367,7 @@ Reference:
 
 https://health.aws.amazon.com/health/status
 
-# Question 13 The development team at a company manages 300 microservices and it is now trying to automate the code reviews to improve the code quality. Which tool/service is the right fit for this requirement?
+#  # question 13 The development team at a company manages 300 microservices and it is now trying to automate the code reviews to improve the code quality. Which tool/service is the right fit for this requirement?
 
 1. AWS Trusted Advisor
 2. AWS CodeBuild
@@ -394,7 +394,7 @@ AWS CodeBuild - AWS CodeBuild is a fully managed continuous integration service 
 
 AWS Trusted Advisor - AWS Trusted Advisors provides recommendations that help you follow AWS best practices. AWS Trusted Advisor evaluates your account by using checks. These checks identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas.
 
-# Question 14 According to the AWS Shared Responsibility Model, which of the following is both the responsibility of AWS and the customer? (Select two)
+#  # question 14 According to the AWS Shared Responsibility Model, which of the following is both the responsibility of AWS and the customer? (Select two)
 
 1. Configuration management
 
@@ -423,7 +423,7 @@ Operating System configuration as a whole is an AWS shared responsibility, but b
 
 Exam Alert:
 
-Please review the AWS Shared Responsibility Model in detail as you can expect multiple questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
+Please review the AWS Shared Responsibility Model in detail as you can expect multiple  # questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
 
 Incorrect options:
 
@@ -435,7 +435,7 @@ Disposal of disk drives
 
 AWS is responsible for "Security OF the cloud". It includes the infrastructure, which is composed of the hardware, software, networking, and facilities that run AWS Cloud services. It includes the disposal and the replacement of disk drives as well as data center security.
 
-# Question 15
+#  # question 15
 Skipped
 An engineering team is new to the AWS Cloud and it would like to launch a dev/test environment with low monthly pricing. Which AWS service can address this use case?
 
@@ -471,7 +471,7 @@ https://aws.amazon.com/lightsail/
 
 Domain
 Technology
-Question 16
+ # question 16
 Skipped
 A company would like to define a set of rules to manage objects cost-effectively between Amazon Simple Storage Service (Amazon S3) storage classes. As a Cloud Practitioner, which Amazon S3 feature would you use?
 
@@ -509,7 +509,7 @@ https://aws.amazon.com/s3/
 
 Domain
 Technology
-Question 17
+ # question 17
 Skipped
 Which of the following services are provided by Amazon Route 53? (Select Two)
 
@@ -552,7 +552,7 @@ https://aws.amazon.com/route53/
 
 Domain
 Technology
-Question 18
+ # question 18
 Skipped
 Which of the following statements is INCORRECT regarding Amazon EBS Elastic Volumes?
 
@@ -588,7 +588,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes.html
 
 Domain
 Technology
-Question 19
+ # question 19
 Skipped
 Which AWS service can be used to view the most comprehensive billing details for the past month?
 
@@ -636,7 +636,7 @@ https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/
 
 Domain
 Billing and Pricing
-Question 20
+ # question 20
 Skipped
 A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?
 
@@ -674,7 +674,7 @@ https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html
 
 Domain
 Billing and Pricing
-Question 21
+ # question 21
 Skipped
 A start-up would like to quickly deploy a popular technology on AWS. As a Cloud Practitioner, which AWS tool would you use for this task?
 
@@ -710,7 +710,7 @@ https://aws.amazon.com/quickstart/
 
 Domain
 Technology
-Question 22
+ # question 22
 Skipped
 An engineering team would like to cost-effectively run hundreds of thousands of batch computing workloads on AWS. As a Cloud Practitioner, which AWS service would you use for this task?
 
@@ -750,7 +750,7 @@ https://aws.amazon.com/batch/
 
 Domain
 Technology
-Question 23
+ # question 23
 Skipped
 Which of the following are the advantages of using the AWS Cloud? (Select TWO)
 
@@ -775,7 +775,7 @@ Stop guessing about capacity
 
 Exam Alert:
 
-Please check out the following six advantages of Cloud Computing. You would certainly be asked questions on the advantages of Cloud Computing compared to a traditional on-premises setup:
+Please check out the following six advantages of Cloud Computing. You would certainly be asked  # questions on the advantages of Cloud Computing compared to a traditional on-premises setup:
 
  via - https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
 
@@ -793,7 +793,7 @@ https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cl
 
 Domain
 Cloud Concepts
-Question 24
+ # question 24
 Skipped
 A Cloud Practitioner would like to deploy identical resources across all AWS regions and accounts using templates while estimating costs. Which AWS service can assist with this task?
 
@@ -833,7 +833,7 @@ https://aws.amazon.com/cloudformation/
 
 Domain
 Technology
-Question 25
+ # question 25
 Skipped
 A multinational company has just moved its infrastructure to AWS Cloud and has employees traveling to different offices around the world. How should the company set the AWS accounts?
 
@@ -869,7 +869,7 @@ https://aws.amazon.com/iam/
 
 Domain
 Security and Compliance
-Question 26
+ # question 26
 Skipped
 Which of the following options is NOT a feature of Amazon Inspector?
 
@@ -917,7 +917,7 @@ https://aws.amazon.com/inspector/
 
 Domain
 Security and Compliance
-Question 27
+ # question 27
 Skipped
 A production company with predictable usage would like to reduce the cost of its Amazon Elastic Compute Cloud (Amazon EC2) instances by using reserved instances (RI). Which of the following length terms are available for Amazon EC2 reserved instances (RI)? (Select Two)
 
@@ -960,7 +960,7 @@ https://aws.amazon.com/ec2/pricing/
 
 Domain
 Technology
-Question 28
+ # question 28
 Skipped
 Which types of monitoring can be provided by Amazon CloudWatch? (Select TWO)
 
@@ -1005,7 +1005,7 @@ https://aws.amazon.com/cloudwatch/
 
 Domain
 Technology
-Question 29
+ # question 29
 Skipped
 Which of the following statements is an AWS best practice when architecting for the Cloud?
 
@@ -1039,7 +1039,7 @@ https://aws.amazon.com/architecture/well-architected/
 
 Domain
 Cloud Concepts
-Question 30
+ # question 30
 Skipped
 According to the AWS Shared Responsibility Model, which of the following is the responsibility of the customer?
 
@@ -1061,7 +1061,7 @@ The customers are responsible for "Security IN the cloud". It includes the confi
 
 Exam Alert:
 
-Please review the AWS Shared Responsibility Model in detail as you can expect multiple questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
+Please review the AWS Shared Responsibility Model in detail as you can expect multiple  # questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
 
 Incorrect options:
 
@@ -1079,7 +1079,7 @@ https://aws.amazon.com/compliance/shared-responsibility-model/
 
 Domain
 Security and Compliance
-Question 31
+ # question 31
 Skipped
 A research lab needs to be notified in case of a configuration change for security and compliance reasons. Which AWS service can assist with this task?
 
@@ -1115,7 +1115,7 @@ https://aws.amazon.com/config/
 
 Domain
 Security and Compliance
-Question 32
+ # question 32
 Skipped
 A company would like to create a private, high bandwidth network connection between its on-premises data centers and AWS Cloud. As a Cloud Practitioner, which of the following options would you recommend?
 
@@ -1151,7 +1151,7 @@ https://aws.amazon.com/directconnect/
 
 Domain
 Security and Compliance
-Question 33
+ # question 33
 Skipped
 A company would like to optimize Amazon Elastic Compute Cloud (Amazon EC2) costs. Which of the following actions can help with this task? (Select TWO)
 
@@ -1204,7 +1204,7 @@ https://aws.amazon.com/autoscaling/
 
 Domain
 Billing and Pricing
-Question 34
+ # question 34
 Skipped
 A company would like to move 50 petabytes (PBs) of data from its on-premises data centers to AWS in the MOST cost-effective way. As a Cloud Practitioner, which of the following solutions would you choose?
 
@@ -1238,7 +1238,7 @@ https://aws.amazon.com/snowmobile/
 
 Domain
 Technology
-Question 35
+ # question 35
 Skipped
 A company would like to audit requests made to an Amazon Simple Storage Service (Amazon S3) bucket. As a Cloud Practitioner, which Amazon Simple Storage Service (Amazon S3) feature would you recommend addressing this use-case?
 
@@ -1274,7 +1274,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html
 
 Domain
 Security and Compliance
-Question 36
+ # question 36
 Skipped
 Which of the following AWS Support plans is the MOST cost-effective when getting enhanced technical support by Cloud Support Engineers?
 
@@ -1296,7 +1296,7 @@ AWS recommends AWS Business Support if you have production workloads on AWS and 
 
 Exam Alert:
 
-Please review the differences between the AWS Developer Support, AWS Business Support, and AWS Enterprise Support plans as you can expect at least a couple of questions on the exam:
+Please review the differences between the AWS Developer Support, AWS Business Support, and AWS Enterprise Support plans as you can expect at least a couple of  # questions on the exam:
 
 
 
@@ -1322,7 +1322,7 @@ https://aws.amazon.com/premiumsupport/plans/business/
 
 Domain
 Billing and Pricing
-Question 37
+ # question 37
 Skipped
 A developer would like to automate operations on his on-premises environment using Chef and Puppet. Which AWS service can help with this task?
 
@@ -1356,7 +1356,7 @@ https://aws.amazon.com/opsworks/
 
 Domain
 Technology
-Question 38
+ # question 38
 Skipped
 Which of the following statements is CORRECT regarding the scope of an Amazon Virtual Private Cloud (VPC)?
 
@@ -1394,7 +1394,7 @@ https://aws.amazon.com/vpc/
 
 Domain
 Technology
-Question 39
+ # question 39
 Skipped
 A company would like to move its infrastructure to AWS Cloud. Which of the following should be included in the Total Cost of Ownership (TCO) estimate? (Select TWO)
 
@@ -1441,7 +1441,7 @@ https://aws.amazon.com/blogs/aws/new-cloud-tco-comparison-calculator-for-web-app
 
 Domain
 Billing and Pricing
-Question 40
+ # question 40
 Skipped
 Which of the following are the best practices when using AWS Organizations? (Select TWO)
 
@@ -1486,7 +1486,7 @@ https://aws.amazon.com/organizations/
 
 Domain
 Billing and Pricing
-Question 41
+ # question 41
 Skipped
 Which AWS service can inspect Amazon CloudFront distributions running on any HTTP web server?
 
@@ -1526,7 +1526,7 @@ https://aws.amazon.com/waf/
 
 Domain
 Technology
-Question 42
+ # question 42
 Skipped
 Which service/tool will you use to create and provide trusted users with temporary security credentials that can control access to your AWS resources?
 
@@ -1568,7 +1568,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html
 
 Domain
 Security and Compliance
-Question 43
+ # question 43
 Skipped
 A start-up would like to monitor its cost on the AWS Cloud and would like to choose an optimal Savings Plan. As a Cloud Practitioner, which AWS service would you use?
 
@@ -1618,7 +1618,7 @@ https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/
 
 Domain
 Billing and Pricing
-Question 44
+ # question 44
 Skipped
 A company needs to use a secure online data transfer tool/service that can automate the ongoing transfers from on-premises systems into AWS while providing support for incremental data backups.
 
@@ -1662,7 +1662,7 @@ https://aws.amazon.com/datasync/features/
 
 Domain
 Technology
-Question 45
+ # question 45
 Skipped
 According to the AWS Well-Architected Framework, which of the following action is recommended in the Security pillar?
 
@@ -1708,7 +1708,7 @@ https://aws.amazon.com/architecture/well-architected/
 
 Domain
 Cloud Concepts
-Question 46
+ # question 46
 Skipped
 Which of the following criteria are used to calculate the charge for Amazon EBS Volumes? (Select Two)
 
@@ -1749,7 +1749,7 @@ https://aws.amazon.com/ebs/pricing/
 
 Domain
 Billing and Pricing
-Question 47
+ # question 47
 Skipped
 A company is planning to implement Chaos Engineering to expose any blind spots that can disrupt the resiliency of the application.
 
@@ -1787,7 +1787,7 @@ https://aws.amazon.com/fis/features/
 
 Domain
 Technology
-Question 48
+ # question 48
 Skipped
 Which AWS service can be used to send, store, and receive messages between software components at any volume to decouple application tiers?
 
@@ -1825,7 +1825,7 @@ https://aws.amazon.com/sqs/
 
 Domain
 Technology
-Question 49
+ # question 49
 Skipped
 Which AWS tool/service will help you define your cloud infrastructure using popular programming languages such as Python and JavaScript?
 
@@ -1865,7 +1865,7 @@ https://aws.amazon.com/cdk/
 
 Domain
 Technology
-Question 50
+ # question 50
 Skipped
 Which security control tool can be used to deny traffic from a specific IP address?
 
@@ -1901,7 +1901,7 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
 
 Domain
 Security and Compliance
-Question 51
+ # question 51
 Skipped
 A data science team would like to build Machine Learning models for its projects. Which AWS service can it use?
 
@@ -1935,7 +1935,7 @@ https://aws.amazon.com/sagemaker/
 
 Domain
 Technology
-Question 52
+ # question 52
 Skipped
 The IT infrastructure at a university is deployed on AWS Cloud and it's experiencing a read-intensive workload. As a Cloud Practitioner, which AWS service would you use to take the load off databases?
 
@@ -1973,7 +1973,7 @@ https://aws.amazon.com/elasticache/
 
 Domain
 Technology
-Question 53
+ # question 53
 Skipped
 An organization would like to copy data across different Availability Zones (AZs) using Amazon EBS snapshots. Where are Amazon EBS snapshots stored in the AWS Cloud?
 
@@ -2009,7 +2009,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html
 
 Domain
 Technology
-Question 54
+ # question 54
 Skipped
 Which of the following statements is the MOST accurate when describing AWS Elastic Beanstalk?
 
@@ -2047,7 +2047,7 @@ https://aws.amazon.com/elasticbeanstalk/
 
 Domain
 Technology
-Question 55
+ # question 55
 Skipped
 According to the AWS Shared Responsibility Model, which of the following are the responsibilities of AWS? (Select two)
 
@@ -2074,7 +2074,7 @@ AWS responsibility “Security OF the Cloud” - AWS is responsible for protecti
 
 Exam Alert:
 
-Please review the AWS Shared Responsibility Model in detail as you can expect multiple questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
+Please review the AWS Shared Responsibility Model in detail as you can expect multiple  # questions on the shared responsibility model in the exam:  via - https://aws.amazon.com/compliance/shared-responsibility-model/
 
 Incorrect options:
 
@@ -2092,7 +2092,7 @@ https://aws.amazon.com/compliance/shared-responsibility-model/
 
 Domain
 Security and Compliance
-Question 56
+ # question 56
 Skipped
 A media company wants to enable customized content suggestions for the users of its movie streaming platform. Which AWS service can provide these personalized recommendations based on historic data?
 
@@ -2134,7 +2134,7 @@ https://aws.amazon.com/personalize/
 
 Domain
 Technology
-Question 57
+ # question 57
 Skipped
 Which of the following AWS Identity and Access Management (AWS IAM) Security Tools allows you to review permissions granted to an IAM user?
 
@@ -2168,7 +2168,7 @@ https://aws.amazon.com/about-aws/whats-new/2019/06/now-use-iam-access-advisor-wi
 
 Domain
 Security and Compliance
-Question 58
+ # question 58
 Skipped
 An e-commerce company would like to build a chatbot for its customer service using Natural Language Understanding (NLU). As a Cloud Practitioner, which AWS service would you use?
 
@@ -2206,7 +2206,7 @@ https://aws.amazon.com/lex/
 
 Domain
 Technology
-Question 59
+ # question 59
 Skipped
 A brand-new startup would like to remove its need to manage the underlying infrastructure and focus on the deployment and management of its applications. Which type of cloud computing does this refer to?
 
@@ -2244,7 +2244,7 @@ https://aws.amazon.com/types-of-cloud-computing/
 
 Domain
 Cloud Concepts
-Question 60
+ # question 60
 Skipped
 Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?
 
@@ -2278,7 +2278,7 @@ https://wa.aws.amazon.com/wat.concept.horizontal-scaling.en.html
 
 Domain
 Cloud Concepts
-Question 61
+ # question 61
 Skipped
 A company using a hybrid cloud would like to store secondary backup copies of the on-premises data. Which Amazon S3 Storage Class would you use for a cost-optimal yet rapid access solution?
 
@@ -2300,7 +2300,7 @@ Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) is for data that is access
 
 Exam Alert:
 
-Please review this detailed comparison of S3 Storage Classes as you can expect a few questions on this aspect of S3:  via - https://aws.amazon.com/s3/storage-classes/
+Please review this detailed comparison of S3 Storage Classes as you can expect a few  # questions on this aspect of S3:  via - https://aws.amazon.com/s3/storage-classes/
 
 Incorrect options:
 
@@ -2316,7 +2316,7 @@ https://aws.amazon.com/s3/storage-classes/
 
 Domain
 Technology
-Question 62
+ # question 62
 Skipped
 Which of the following options are the benefits of using AWS Elastic Load Balancing (ELB)? (Select TWO)
 
@@ -2357,7 +2357,7 @@ https://aws.amazon.com/elasticloadbalancing/
 
 Domain
 Cloud Concepts
-Question 63
+ # question 63
 Skipped
 A growing start-up has trouble identifying and protecting sensitive data at scale. Which AWS fully managed service can assist with this task?
 
@@ -2395,7 +2395,7 @@ https://aws.amazon.com/macie/
 
 Domain
 Security and Compliance
-Question 64
+ # question 64
 Skipped
 Which AWS service allows you to quickly and easily add user sign-up, sign-in, and access control to web and mobile applications?
 
@@ -2429,7 +2429,7 @@ https://aws.amazon.com/cognito/
 
 Domain
 Technology
-Question 65
+ # question 65
 Skipped
 Which of the following AWS services can be used to generate, use, and manage encryption keys on the AWS Cloud?
 
