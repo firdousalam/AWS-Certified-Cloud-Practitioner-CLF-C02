@@ -103,7 +103,7 @@ Having the right amount of computing capacity - Amazon EC2 Auto Scaling ensures 
 Reference:
 
 
-#  # question 4 Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
+#  question 4 Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
 
 1. AWS Health Dashboard - Service health
 2. AWS Trusted Advisor
@@ -133,7 +133,7 @@ https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
 Domain
 Security and Compliance
 
-  #  # question 5 According to the AWS Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)
+  #  question 5 According to the AWS Well-Architected Framework, which of the following statements are recommendations in the Operational Excellence pillar? (Select two)
 
 1. Use serverless architectures
 2. Anticipate failure
@@ -173,7 +173,7 @@ Reference:
 
 https://wa.aws.amazon.com/index.en.html
 
-#  # question 6 A company based in Sydney hosts its application on an Amazon Elastic Compute Cloud (Amazon EC2) instance in ap-southeast-2. They would like to deploy the same Amazon EC2 instances in eu-south-1. Which of the following AWS entities can address this use case?
+#  question 6 A company based in Sydney hosts its application on an Amazon Elastic Compute Cloud (Amazon EC2) instance in ap-southeast-2. They would like to deploy the same Amazon EC2 instances in eu-south-1. Which of the following AWS entities can address this use case?
 
 1. Elastic Load Balancing (ELB)
 2. Amazon Machine Image (AMI)
@@ -202,7 +202,7 @@ Reference:
 
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html
 
-#  # question 7 A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
+#  question 7 A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
 
 1. A security group
 2. A VPC endpoint interface
@@ -224,7 +224,7 @@ Incorrect options:
 
 ### A virtual private gateway (VGW) - A virtual private gateway (VGW) device is a physical or software appliance on AWS side of a Site-to-Site VPN connection.
 
-#  # question 8 A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
+#  question 8 A Cloud Practitioner would like to get operational insights of its resources to quickly identify any issues that might impact applications using those resources. Which AWS service can help with this task?
 
 1. AWS Trusted Advisor
 2. AWS Systems Manager
@@ -249,7 +249,7 @@ AWS Health Dashboard - Your Account Health - AWS Health Dashboard - Your Account
 
 AWS Trusted Advisor - AWS Trusted Advisor is an online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment. AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It is not used to get operational insights of AWS resources.
 
-#  # question 9 Which AWS serverless service allows you to prepare data for analytics?
+#  question 9 Which AWS serverless service allows you to prepare data for analytics?
 
 1. Amazon Athena
 2. Amazon Redshift
@@ -276,7 +276,7 @@ Reference:
 
 https://aws.amazon.com/glue/
 
-#  # question 10 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
+#  question 10 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
 
 1. Pay per minute
 
@@ -306,7 +306,7 @@ Reference:
 
 https://aws.amazon.com/ec2/pricing/
 
-#  # question 11 A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
+#  question 11 A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
 
 1. Convertible reserved instance (RI)
 
@@ -337,7 +337,7 @@ Scheduled reserved instance (RI) - AWS does not support scheduled reserved insta
 Adaptable reserved instances (RI) - Adaptable reserved instance (RI) is not a valid type of reserved instance (RI). It is a distractor
 
 
-#  # question 12 Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
+#  question 12 Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
 
 1. Amazon Simple Notification Service (Amazon SNS)
 2. AWS Lambda
@@ -367,7 +367,7 @@ Reference:
 
 https://health.aws.amazon.com/health/status
 
-#  # question 13 The development team at a company manages 300 microservices and it is now trying to automate the code reviews to improve the code quality. Which tool/service is the right fit for this requirement?
+#  question 13 The development team at a company manages 300 microservices and it is now trying to automate the code reviews to improve the code quality. Which tool/service is the right fit for this requirement?
 
 1. AWS Trusted Advisor
 2. AWS CodeBuild
@@ -394,7 +394,7 @@ AWS CodeBuild - AWS CodeBuild is a fully managed continuous integration service 
 
 AWS Trusted Advisor - AWS Trusted Advisors provides recommendations that help you follow AWS best practices. AWS Trusted Advisor evaluates your account by using checks. These checks identify ways to optimize your AWS infrastructure, improve security and performance, reduce costs, and monitor service quotas.
 
-#  # question 14 According to the AWS Shared Responsibility Model, which of the following is both the responsibility of AWS and the customer? (Select two)
+#  question 14 According to the AWS Shared Responsibility Model, which of the following is both the responsibility of AWS and the customer? (Select two)
 
 1. Configuration management
 
@@ -435,21 +435,18 @@ Disposal of disk drives
 
 AWS is responsible for "Security OF the cloud". It includes the infrastructure, which is composed of the hardware, software, networking, and facilities that run AWS Cloud services. It includes the disposal and the replacement of disk drives as well as data center security.
 
-#  # question 15
-Skipped
-An engineering team is new to the AWS Cloud and it would like to launch a dev/test environment with low monthly pricing. Which AWS service can address this use case?
+#  question 15 An engineering team is new to the AWS Cloud and it would like to launch a dev/test environment with low monthly pricing. Which AWS service can address this use case?
 
-Amazon Elastic Compute Cloud (Amazon EC2)
+1. Amazon Elastic Compute Cloud (Amazon EC2)
 
-Amazon Elastic Container Service (Amazon ECS)
+2. Amazon Elastic Container Service (Amazon ECS)
 
-Correct answer
-Amazon LightSail
+3. Amazon LightSail
 
-AWS CloudFormation
+4. AWS CloudFormation
 
 Overall explanation
-Correct option:
+### Correct option: 3
 
 Amazon LightSail
 
@@ -469,23 +466,18 @@ Reference:
 
 https://aws.amazon.com/lightsail/
 
-Domain
-Technology
- # question 16
-Skipped
-A company would like to define a set of rules to manage objects cost-effectively between Amazon Simple Storage Service (Amazon S3) storage classes. As a Cloud Practitioner, which Amazon S3 feature would you use?
+ # question 16 A company would like to define a set of rules to manage objects cost-effectively between Amazon Simple Storage Service (Amazon S3) storage classes. As a Cloud Practitioner, which Amazon S3 feature would you use?
 
-Amazon Simple Storage Service (Amazon S3) Bucket policies
+1. Amazon Simple Storage Service (Amazon S3) Bucket policies
 
-Amazon S3 Transfer Acceleration (Amazon S3TA)
+2. Amazon S3 Transfer Acceleration (Amazon S3TA)
 
-Correct answer
-Amazon Simple Storage Service (Amazon S3) Lifecycle configuration
+3. Amazon Simple Storage Service (Amazon S3) Lifecycle configuration
 
-S3 Cross-Region Replication (S3 CRR)
+4. S3 Cross-Region Replication (S3 CRR)
 
 Overall explanation
-Correct option:
+### Correct option: 3
 
 Amazon Simple Storage Service (Amazon S3) Lifecycle configuration
 
