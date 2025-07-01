@@ -17,6 +17,27 @@
 
 ans 3 Hybrid
 
+Overall explanation
+Correct option:
+
+Hybrid Cloud
+
+A hybrid deployment is a way to connect infrastructure and applications between cloud-based resources and existing resources that are not located in the cloud. The most common method of hybrid deployment is between the cloud and existing on-premises infrastructure to extend, and grow, an organization's infrastructure into the cloud while connecting cloud resources to the internal system.
+
+Overview of Cloud Computing Deployment Models:  via - https://aws.amazon.com/types-of-cloud-computing/
+
+Incorrect options:
+
+Public Cloud - A public cloud-based application is fully deployed in the cloud and all parts of the application run in the cloud. Applications in the cloud have either been created in the cloud or have been migrated from an existing infrastructure to take advantage of the benefits of cloud computing.
+
+Private Cloud - Unlike a Public cloud, a Private cloud enables businesses to avail IT services that are provisioned and customized according to their precise needs. The business can further avail the IT services securely and reliably over a private IT infrastructure.
+
+On-premises - This is not a cloud deployment model. When an enterprise opts for on-premises, it needs to create, upgrade, and scale the on-premise IT infrastructure by investing in sophisticated hardware, compatible software, and robust services. Also, the business needs to deploy dedicated IT staff to upkeep, scale, and manage the on-premise infrastructure continuously.
+
+Reference:
+
+https://docs.aws.amazon.com/whitepapers/latest/public-sector-cloud-transformation/selecting-the-right-cloud-for-workloads-differences-between-public-private-and-hybrid.html
+
 # 2. A corporation would like to simplify access management to multiple AWS accounts as well as facilitate AWS Single Sign-On (AWS SSO) access to its AWS accounts. As a Cloud Practitioner, which AWS service would you use for this task?
 
 1. AWS identity and access management
@@ -29,6 +50,29 @@ ans 3 Hybrid
 
 ans 2 aws IAM identity center
 
+Overall explanation
+Correct option:
+
+AWS IAM Identity Center
+
+AWS IAM Identity Center is the successor to AWS Single Sign-On (AWS SSO). It is built on top of AWS Identity and Access Management (IAM) to simplify access management to multiple AWS accounts, AWS applications, and other SAML-enabled cloud applications. In IAM Identity Center, you create or connect, your workforce users for use across AWS. You can choose to manage access just to your AWS accounts, just to your cloud applications, or to both.
+
+You can create users directly in IAM Identity Center, or you can bring them from your existing workforce directory. With IAM Identity Center, you get a unified administration experience to define, customize, and assign fine-grained access. Your workforce users get a user portal to access their assigned AWS accounts or cloud applications.
+
+You can use IAM Identity Center to quickly and easily assign and manage your employees’ access to multiple AWS accounts, SAML-enabled cloud applications (such as Salesforce, Microsoft 365, and Box), and custom-built in-house applications, all from a central place.
+
+How AWS IAM Identity Center works:  via - https://aws.amazon.com/iam/identity-center/
+
+Incorrect options:
+
+AWS Cognito - Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. With Amazon Cognito, you also have the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. It is an identity management solution for customers/developers building B2C or B2B apps for their customers.
+
+AWS Identity and Access Management (AWS IAM) - AWS Identity and Access Management (AWS IAM) enables you to securely control access to AWS services and resources for your users. Using AWS IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. It is not used to log in but to manage users and roles.
+
+AWS Command Line Interface (CLI) - The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts. It is not a central user portal.
+
+
+
 
 # 3. Question 3 Which Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling feature can help with fault tolerance?
 
@@ -38,6 +82,25 @@ ans 2 aws IAM identity center
 4. Having the right amount of computing capacity
 
   ANS 3
+
+  Overall explanation
+Correct option:
+
+Replacing unhealthy Amazon EC2 instances
+
+Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove Amazon EC2 instances according to the conditions you define. You can use the fleet management features of Amazon EC2 Auto Scaling to maintain the health and availability of your fleet. You can also use the dynamic and predictive scaling features of Amazon EC2 Auto Scaling to add or remove EC2 instances.
+
+Amazon EC2 Auto Scaling can detect when an instance is unhealthy, terminate it, and replace it with a new one.
+
+Incorrect options:
+
+Lower cost by adjusting the number of Amazon EC2 instances - Amazon EC2 Auto Scaling adds instances only when needed, and can scale across purchase options to optimize performance and cost. However, this will not help with fault tolerance.
+
+Distributing load to Amazon EC2 instances - Even though this helps with fault tolerance and is often used with Amazon EC2 Auto Scaling, it is a feature of Elastic Load Balancing (ELB) and not an Amazon EC2 Auto Scaling. Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone (AZ) or across multiple Availability Zones (AZs).
+
+Having the right amount of computing capacity - Amazon EC2 Auto Scaling ensures that your application always has the right amount of computing capacity, so your application can handle the workload.
+
+Reference:
 
 
 # Question 4 Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
@@ -242,6 +305,69 @@ Pay per day - Pay per day pricing is not available for Windows EC2 on-demand ins
 Reference:
 
 https://aws.amazon.com/ec2/pricing/
+
+# Question 11 A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
+
+1. Convertible reserved instance (RI)
+
+2. Standard reserved instance (RI)
+
+3. Adaptable reserved instances (RI)
+
+4. Scheduled reserved instance (RI)
+
+Overall explanation
+### Correct option: 1
+Convertible reserved instance (RI)
+
+Purchase convertible reserved instance (RI) if you need additional flexibility, such as the ability to use different instance families, operating systems, or tenancies over the reserved instance (RI) term. Convertible reserved instance (RI) provides you with a significant discount (up to 54%) compared to an on-demand instance and can be purchased for a 1-year or 3-year term.
+
+Convertible reserved instance (RI) can be useful when workloads are likely to change. In this case, a convertible reserved instance (RI) enables you to adapt as needs evolve while still obtaining discounts and capacity reservation.
+
+Amazon EC2 Pricing Options Overview:  via - https://aws.amazon.com/ec2/pricing/
+
+Incorrect options:
+
+Standard reserved instance (RI) - Standard reserved instance (RI) provides you with a significant discount (up to 72%) compared to on-demand instance pricing, and can be purchased for a 1-year or 3-year term. Standard reserved instance (RI) do not offer as much flexibility as convertible reserved instance (RI), such as not being able to change the instance family type; and therefore are not best-suited for this use case.
+
+Review the differences between standard reserved instance (RI) and convertible reserved instance (RI): https://docs.aws.amazon.com/whitepapers/latest/cost-optimization-reservation-models/standard-vs.-convertible-offering-classes.html
+
+Scheduled reserved instance (RI) - AWS does not support scheduled reserved instance (RI), so this option is ruled out.
+
+Adaptable reserved instances (RI) - Adaptable reserved instance (RI) is not a valid type of reserved instance (RI). It is a distractor
+
+
+# Question 12 Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
+
+1. Amazon Simple Notification Service (Amazon SNS)
+2. AWS Lambda
+3. AWS Health Dashboard - Service Health
+4. AWS Health Dashboard - Your Account Health
+
+Overall explanation
+### Correct option: 3
+
+AWS Health Dashboard - Service Health
+
+The AWS Health Dashboard – Service health is the single place to learn about the availability and operations of AWS services. You can view the overall status of AWS services, and you can sign in to view personalized communications about your particular AWS account or organization.
+
+You can check on this page https://health.aws.amazon.com/health/status to get current status information.
+
+The AWS Health Dashboard – Service health offers the possibility to subscribe to an RSS feed to be notified of interruptions to each service.
+
+Incorrect options:
+
+Amazon Simple Notification Service (Amazon SNS) - Amazon Simple Notification Service (Amazon SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distributed systems, and serverless applications. It can be used to deliver notifications, but it does not provide the current services' status.
+
+AWS Health Dashboard - Your Account Health - Your AWS Health Dashboard – Your Account Health provides alerts and remediation guidance when AWS is experiencing events that may impact you.
+
+AWS Lambda - AWS Lambda lets you run code without provisioning or managing servers. It does not provide all AWS services' status.
+
+Reference:
+
+https://health.aws.amazon.com/health/status
+
+
 
 
 
