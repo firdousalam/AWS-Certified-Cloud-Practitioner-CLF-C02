@@ -169,7 +169,7 @@ Incorrect options:
 4. AWS Health Dashboard - Your Account Health
 
 Overall explanation
-Correct option: 2
+### Correct option: 2
 AWS Systems Manager
 
 AWS Systems Manager allows you to centralize operational data from multiple AWS services and automate tasks across your AWS resources. You can create logical groups of resources such as applications, different layers of an application stack, or production versus development environments.
@@ -186,6 +186,62 @@ AWS Health Dashboard - Your Account Health - AWS Health Dashboard - Your Account
 
 AWS Trusted Advisor - AWS Trusted Advisor is an online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment. AWS Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices. It is not used to get operational insights of AWS resources.
 
+# Question 9 Which AWS serverless service allows you to prepare data for analytics?
+
+1. Amazon Athena
+2. Amazon Redshift
+3. Amazon EMR
+4. AWS Glue
+
+Overall explanation
+### Correct option: 4
+AWS Glue
+
+AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics. AWS Glue job is meant to be used for batch ETL data processing.
+
+How AWS Glue works:  via - https://aws.amazon.com/glue/
+
+Incorrect options:
+
+Amazon Athena - Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon Simple Storage Service (Amazon S3) using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run. Amazon Athena is used for analytics and not to prepare data for analytics.
+
+Amazon Redshift - Amazon Redshift is a fast and scalable data warehouse that makes it simple and cost-effective to analyze all your data across your data warehouse and data lake. Redshift is used for analytics and not to prepare data for analytics.
+
+Amazon EMR - Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. EMR is used for analytics and not to prepare data for analytics.
+
+Reference:
+
+https://aws.amazon.com/glue/
+
+# Question 10 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
+
+1. Pay per minute
+
+2. Pay per hour
+
+3. Pay per day
+   
+4. Pay per second
+
+Overall explanation
+### Correct option: 4
+Pay per second
+
+With On-Demand instances, you only pay for the Amazon EC2 instances you use. The use of On-Demand instances frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are commonly large fixed costs into much smaller variable costs.
+
+When running a Windows EC2 on-demand instance, pay-per-second pricing is applied.
+
+Incorrect options:
+
+Pay per hour - When running an Amazon Windows EC2 On-demand instance, pay-per-second pricing is applied. Windows-based EC2 instances used to follow pay-per-hour pricing earlier.
+
+Pay per minute - Pay per minute pricing is not available for Windows EC2 on-demand instances, or any other type of on-demand EC2 instance.
+
+Pay per day - Pay per day pricing is not available for Windows EC2 on-demand instances, or any other type of on-demand EC2 instance.
+
+Reference:
+
+https://aws.amazon.com/ec2/pricing/
 
 
 
