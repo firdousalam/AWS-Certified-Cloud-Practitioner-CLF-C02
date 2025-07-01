@@ -499,29 +499,21 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html
 
 https://aws.amazon.com/s3/
 
-Domain
-Technology
- # question 17
-Skipped
-Which of the following services are provided by Amazon Route 53? (Select Two)
+ # question 17 Which of the following services are provided by Amazon Route 53? (Select Two)
 
-IP routing
+1. IP routing
 
-Load balancing
+2. Load balancing
 
-Correct selection
-Health checks and monitoring
+3. Health checks and monitoring
 
-Correct selection
-Domain registration
+4. Domain registration
 
-Transfer acceleration
+5. Transfer acceleration
 
 Overall explanation
-Correct options:
-
+### Correct options: 3 and 4
 Domain registration
-
 Health checks and monitoring
 
 Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost-effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other.
@@ -542,23 +534,18 @@ Reference:
 
 https://aws.amazon.com/route53/
 
-Domain
-Technology
- # question 18
-Skipped
-Which of the following statements is INCORRECT regarding Amazon EBS Elastic Volumes?
+ # question 18 Which of the following statements is INCORRECT regarding Amazon EBS Elastic Volumes?
 
-Amazon EBS Elastic Volumes can persist data after their termination
+1. Amazon EBS Elastic Volumes can persist data after their termination
 
-Correct answer
-Amazon EBS Elastic Volumes can be bound to several Availability Zones (AZs)
+2. Amazon EBS Elastic Volumes can be bound to several Availability Zones (AZs)
 
-Amazon EBS Elastic Volumes are bound to a specific Availability Zone (AZ)
+3. Amazon EBS Elastic Volumes are bound to a specific Availability Zone (AZ)
 
-Amazon EBS Elastic Volumes can be mounted to one instance at a time
+4. Amazon EBS Elastic Volumes can be mounted to one instance at a time
 
 Overall explanation
-Correct option:
+### Correct option: 2
 
 Amazon EBS Elastic Volumes can be bound to several Availability Zones (AZs)
 
@@ -580,21 +567,18 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volumes.html
 
 Domain
 Technology
- # question 19
-Skipped
-Which AWS service can be used to view the most comprehensive billing details for the past month?
+ # question 19 Which AWS service can be used to view the most comprehensive billing details for the past month?
 
-AWS Cost Explorer
+1. AWS Cost Explorer
 
-AWS Pricing Calculator
+2. AWS Pricing Calculator
 
-AWS Budgets
+3. AWS Budgets
 
-Correct answer
-AWS Cost & Usage Report (AWS CUR)
+4. AWS Cost & Usage Report (AWS CUR)
 
 Overall explanation
-Correct option:
+### Correct option: 4
 
 AWS Cost & Usage Report (AWS CUR)
 
@@ -626,23 +610,18 @@ https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
 
 https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/
 
-Domain
-Billing and Pricing
- # question 20
-Skipped
-A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?
+ # question 20 A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?
 
-Create one account for all departments and share this account
+1. Create one account for all departments and share this account
 
-Correct answer
-Create tags for each department
+2. Create tags for each department
 
-Create different accounts for different departments
+3. Create different accounts for different departments
 
-Create different virtual private cloud (VPCs) for different departments
+4. Create different virtual private cloud (VPCs) for different departments
 
 Overall explanation
-Correct option:
+## Correct option: 2
 
 Create tags for each department
 
