@@ -1,7 +1,7 @@
-# AWS-Certified-Cloud-Practitioner-CLF-C02
+# AWS-Certified-Cloud-Practitioner-CLF-C02 #
 
 
-# AWS Practioneer Question #
+
 
 # 1. A company needs to keep sensitive data in its own data center due to compliance but would still like to deploy resources using AWS. Which Cloud deployment model does this refer to?
 
