@@ -643,23 +643,18 @@ Reference:
 
 https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html
 
-Domain
-Billing and Pricing
- # question 21
-Skipped
-A start-up would like to quickly deploy a popular technology on AWS. As a Cloud Practitioner, which AWS tool would you use for this task?
+ # question 21 A start-up would like to quickly deploy a popular technology on AWS. As a Cloud Practitioner, which AWS tool would you use for this task?
 
-Correct answer
-AWS Partner Solutions (formerly Quick Starts)
+1. AWS Partner Solutions (formerly Quick Starts)
 
-AWS Whitepapers
+2. AWS Whitepapers
 
-AWS Forums
+3. AWS Forums
 
-AWS CodeDeploy
+4. AWS CodeDeploy
 
 Overall explanation
-Correct option:
+### Correct option: 1
 
 AWS Partner Solutions (formerly Quick Starts)
 
@@ -679,23 +674,19 @@ Reference:
 
 https://aws.amazon.com/quickstart/
 
-Domain
-Technology
- # question 22
-Skipped
-An engineering team would like to cost-effectively run hundreds of thousands of batch computing workloads on AWS. As a Cloud Practitioner, which AWS service would you use for this task?
 
-AWS Fargate
+ # question 22 An engineering team would like to cost-effectively run hundreds of thousands of batch computing workloads on AWS. As a Cloud Practitioner, which AWS service would you use for this task?
 
-Correct answer
-AWS Batch
+1. AWS Fargate
 
-Amazon Lightsail
+2. AWS Batch
 
-AWS Lambda
+3. Amazon Lightsail
+
+4. AWS Lambda
 
 Overall explanation
-Correct option:
+Correct option: 2
 
 AWS Batch
 
@@ -719,26 +710,20 @@ Reference:
 
 https://aws.amazon.com/batch/
 
-Domain
-Technology
- # question 23
-Skipped
-Which of the following are the advantages of using the AWS Cloud? (Select TWO)
+ # question 23 Which of the following are the advantages of using the AWS Cloud? (Select TWO)
 
-Trade operational expense for capital expense
+1. Trade operational expense for capital expense
 
-Limited scaling
+2. Limited scaling
 
-Correct selection
-Stop guessing about capacity
+3. Stop guessing about capacity
 
-Correct selection
-Increase speed and agility
+4. Increase speed and agility
 
-AWS is responsible for security in the cloud
+5. AWS is responsible for security in the cloud
 
 Overall explanation
-Correct options:
+### Correct options: 3,4
 
 Increase speed and agility
 
@@ -762,23 +747,18 @@ Reference:
 
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html
 
-Domain
-Cloud Concepts
- # question 24
-Skipped
-A Cloud Practitioner would like to deploy identical resources across all AWS regions and accounts using templates while estimating costs. Which AWS service can assist with this task?
+ # question 24 A Cloud Practitioner would like to deploy identical resources across all AWS regions and accounts using templates while estimating costs. Which AWS service can assist with this task?
 
-Correct answer
-AWS CloudFormation
+1. AWS CloudFormation
 
-AWS CodeDeploy
+2. AWS CodeDeploy
 
-AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)
+3. AWS Directory Service for Microsoft Active Directory (AWS Managed Microsoft AD)
 
-Amazon LightSail
+4. Amazon LightSail
 
 Overall explanation
-Correct option:
+Correct option: 1
 
 AWS CloudFormation
 
@@ -802,20 +782,15 @@ Reference:
 
 https://aws.amazon.com/cloudformation/
 
-Domain
-Technology
- # question 25
-Skipped
-A multinational company has just moved its infrastructure to AWS Cloud and has employees traveling to different offices around the world. How should the company set the AWS accounts?
+ # question 25 A multinational company has just moved its infrastructure to AWS Cloud and has employees traveling to different offices around the world. How should the company set the AWS accounts?
 
-Create global permissions so users can access resources from all around the world
+1. Create global permissions so users can access resources from all around the world
 
-Correct answer
-There is nothing to do, AWS Identity and Access Management (AWS IAM) is a global service
+2. There is nothing to do, AWS Identity and Access Management (AWS IAM) is a global service
 
-Create an IAM user for each user in each AWS region
+3. Create an IAM user for each user in each AWS region
 
-As employees travel, they can use other employees' accounts
+4. As employees travel, they can use other employees' accounts
 
 Overall explanation
 Correct option:
